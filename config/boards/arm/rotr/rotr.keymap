@@ -4,7 +4,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 &inc_dec_kp {
-	triggers-per-rotation = <4>;
+	triggers-per-rotation = <10>;
 };
 &def_lshft {
 	triggers-per-rotation = <4>;
@@ -15,7 +15,7 @@
 		compatible = "zmk,keymap";
 
 		default_layer {
-			//PREV | PLAY/PAUSE | NEXT
+			//F9 | K_MUTE | F10
 			bindings = <&kp C_MUTE &lt 4 F13 &kp C_PP>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
