@@ -15,8 +15,8 @@
 		compatible = "zmk,keymap";
 
 		default_layer {
-			//F9 | K_MUTE | F10
-			bindings = <&kp F9 &lt 4 K_MUTE &kp F10>;
+			//F9 | C_MUTE | F10
+			bindings = <&kp F9 &lt 4 C_MUTE &kp F10>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 		one {
